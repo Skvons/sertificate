@@ -1,0 +1,146 @@
+* {
+  font-family: "Times New Roman", serif;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  padding-bottom: 0.5rem;
+}
+
+.document {
+  width: 58rem;
+  margin: 01rem auto;
+  position: relative;
+  padding: 11rem 3rem 5rem 7rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.document__top-image {
+  display: flex;
+  justify-content: center;
+}
+
+.document__top-image img {
+  position: absolute;
+  width: 60%;
+  top: -10rem;
+  transform: translateY(160px);
+}
+
+.document__body {
+  background-color: #fdf6fe;
+  border: #a071dd solid;
+}
+
+.document__text-top {
+  text-align: center;
+}
+
+.document__text-mid {
+  margin-bottom: 5rem;
+  padding: 0 3rem;
+}
+
+.document__text-bottom {
+  display: grid;
+  grid-template-columns: 40% auto;
+  padding: 0rem 3rem 3rem 2rem;
+}
+
+.document__title {
+  font-size: 3rem;
+  padding-top: 10rem;
+  background-color: white;
+  font-weight: bold;
+  color: #a071dd;
+  letter-spacing: 0.5rem;
+}
+
+.document__subtitle {
+  font-size: 1.3rem;
+  color: #a071dd;
+  padding-bottom: 1rem;
+}
+
+.text-top__wrapper {
+  margin: 0;
+  background-color: white;
+}
+
+.text-top__raduis {
+  background-color: white;
+  border-radius: 0 0 100% 100% / 0 0 80% 80%;
+}
+
+.text-mid p {
+  padding-bottom: 1.5rem;
+}
+
+.text-mid__author {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.text-mid h2 {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.text-bottom__list {
+  margin-bottom: 2rem;
+}
+
+.text-bottom__list ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.text-bottom__bold {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.text-bottom__sign {
+  font-style: italic;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
+  float: right;
+}
+
+.text-bottom__info {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-bottom__sign-place {
+  text-align: right;
+}
+
+.text-bottom__seal {
+  position: relative;
+}
+
+.text-bottom__seal img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 85%;
+}
